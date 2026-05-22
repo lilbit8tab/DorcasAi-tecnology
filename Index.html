@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DorcasAi Technology</title>
+<style>
+    :root {
+        --bg-dark: #050712;
+        --bg-card: #111624;
+        --accent: #4a7bff;
+        --accent-soft: #7f9dff;
+        --text-muted: #a0a7c2;
+    }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background:var(--bg-dark); color:white; }
+    a { color:var(--accent-soft); }
+    header {
+        padding:80px 24px 60px;
+        text-align:center;
+        background:radial-gradient(circle at top, #283b8f 0, #050712 55%);
+    }
+    h1 { font-size:3rem; margin-bottom:10px; letter-spacing:0.04em; }
+    h2 { margin-top:40px; font-size:2rem; text-align:center; }
+    h3 { margin-top:0; }
+    p { max-width:800px; margin:10px auto; line-height:1.6; color:var(--text-muted); }
+    .tagline { font-size:1.1rem; text-transform:uppercase; letter-spacing:0.18em; color:var(--accent-soft); }
+    .cta { margin-top:24px; display:flex; justify-content:center; gap:14px; flex-wrap:wrap; }
+    .cta a {
+        padding:12px 24px;
+        border-radius:999px;
+        text-decoration:none;
+        font-weight:600;
+        border:1px solid rgba(255,255,255,0.12);
+    }
+    .cta-primary { background:var(--accent); color:white; box-shadow:0 0 24px rgba(74,123,255,0.5); }
+    .cta-secondary { background:transparent; color:var(--accent-soft); }
+    .section { padding:60px 24px; max-width:1200px; margin:0 auto; }
+    .section-narrow { max-width:900px; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:24px; margin-top:30px; }
+    .card {
+        background:var(--bg-card);
+        padding:20px 20px 22px;
+        border-radius:14px;
+        border:1px solid rgba(255,255,255,0.04);
+        box-shadow:0 18px 40px rgba(0,0,0,0.45);
+    }
+    .pill {
+        display:inline-block;
+        padding:4px 10px;
+        border-radius:999px;
+        font-size:0.75rem;
+        text-transform:uppercase;
+        letter-spacing:0.12em;
+        border:1px solid rgba(255,255,255,0.12);
+        color:var(--accent-soft);
+        margin-bottom:8px;
+    }
+    .timeline { border-left:2px solid var(--accent); padding-left:18px; margin-top:24px; }
+    .timeline-item { margin:16px 0; color:var(--text-muted); }
+    .timeline-item strong { color:white; }
+    table {
+        width:100%;
+        margin-top:24px;
+        border-collapse:collapse;
+        font-size:0.95rem;
+    }
+    table th, table td {
+        border:1px solid rgba(255,255,255,0.12);
+        padding:10px 12px;
+        text-align:left;
+    }
+    table th { background:#0b1020; }
+    .metrics {
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+        gap:18px;
+        margin-top:24px;
+    }
+    .metric {
+        background:linear-gradient(135deg,#111624,#181f33);
+        border-radius:12px;
+        padding:16px 18px;
+        border:1px solid rgba(255,255,255,0.06);
+    }
+    .metric span { display:block; }
+    .metric-label { font-size:0.8rem; text-transform:uppercase; letter-spacing:0.14em; color:var(--text-muted); }
+    .metric-value { font-size:1.4rem; font-weight:600; margin-top:4px; }
+    .metric-note { font-size:0.8rem; margin-top:4px; color:var(--text-muted); }
+    footer {
+        text-align:center;
+        padding:32px 24px 40px;
+        background:#050712;
+        color:var(--text-muted);
+        font-size:0.85rem;
+    }
+    @media (max-width:600px) {
+        h1 { font-size:2.3rem; }
+        header { padding-top:64px; }
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <div class="tagline">DorcasAi Technology</div>
+    <h1>Awareness. Intelligence. Humanity. Reimagined.</h1>
+    <p>DorcasAi builds emotionally intelligent, world‑aware systems that turn messy human reality into clear, actionable intelligence.</p>
+    <div class="cta">
+        <a href="#projects" class="cta-primary">View Flagship Products</a>
+        <a href="#investors" class="cta-secondary">Investor Snapshot</a>
+    </div>
+</header>
+
+<section class="section section-narrow" id="about">
+    <h2>What is DorcasAi?</h2>
+    <p>DorcasAi is a planetary awareness intelligence stack. It combines time‑cycle awareness, emotional intelligence, and global context to power products that feel less like tools and more like understanding partners.</p>
+    <div class="grid">
+        <div class="card">
+            <div class="pill">Core Layer</div>
+            <h3>Fundamental Awareness Engine</h3>
+            <p>Understands time, cycles, and world‑state signals to keep every product context‑aligned with reality.</p>
+        </div>
+        <div class="card">
+            <div class="pill">Human Layer</div>
+            <h3>Emotional Intelligence Engine</h3>
+            <p>Reads tone, stress, and intent to respond in ways that de‑escalate, support, and guide instead of overwhelm.</p>
+        </div>
+        <div class="card">
+            <div class="pill">Planet Layer</div>
+            <h3>Planetary Context Layer</h3>
+            <p>Ingests weather, geography, and environmental signals to make decisions that are grounded in the physical world.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section" id="projects">
+    <h2>Flagship Products</h2>
+    <p>Three flagship products demonstrate how DorcasAi turns awareness into value across communication, memory, and care.</p>
+    <div class="grid">
+        <div class="card">
+            <div class="pill">Linguistic Clarity</div>
+            <h3>UnBabble AI</h3>
+            <p>A class‑diglossia dissolver that removes “noise” between language groups, restoring clarity, dignity, and intent in communication.</p>
+            <ul>
+                <li>Meaning‑first translation and rewriting</li>
+                <li>Tone harmonization for conflict‑heavy exchanges</li>
+                <li>Bias and class‑coded language filtering</li>
+            </ul>
+        </div>
+        <div class="card">
+            <div class="pill">Memory & State</div>
+            <h3>MirrorZip</h3>
+            <p>Visual‑state file storage and reconstruction that remembers how systems looked and felt, not just what they stored.</p>
+            <ul>
+                <li>Snapshot‑based state capture</li>
+                <li>Fast rollback to known‑good configurations</li>
+                <li>Ideal for ops, compliance, and forensics</li>
+            </ul>
+        </div>
+        <div class="card">
+            <div class="pill">Care & Support</div>
+            <h3>DorcasAi Caregiver Companion</h3>
+            <p>An emotionally intelligent companion for caregivers that tracks patterns, anticipates burnout, and offers grounded, human‑sounding support.</p>
+            <ul>
+                <li>Daily emotional check‑ins</li>
+                <li>Context‑aware suggestions and reminders</li>
+                <li>Designed for multi‑generation accessibility</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section section-narrow" id="roadmap">
+    <h2>Roadmap</h2>
+    <p>Clear milestones that compound value across the DorcasAi stack.</p>
+    <div class="timeline">
+        <div class="timeline-item">
+            <strong>2026 Q3 — DorcasAi Alpha</strong><br>
+            Core awareness engine live with internal tools.
+        </div>
+        <div class="timeline-item">
+            <strong>2026 Q4 — MirrorZip Cloud Vault</strong><br>
+            Secure state‑snapshot storage for early design partners.
+        </div>
+        <div class="timeline-item">
+            <strong>2027 Q1 — UnBabble AI Beta</strong><br>
+            Pilot deployments in customer support and education.
+        </div>
+        <div class="timeline-item">
+            <strong>2027 Q2 — Caregiver Companion Launch</strong><br>
+            Targeted rollout to caregiving organizations and families.
+        </div>
+        <div class="timeline-item">
+            <strong>2027 Q3 — Global Awareness Engine</strong><br>
+            Planet‑scale context layer powering all DorcasAi products.
+        </div>
+        <div class="timeline-item">
+            <strong>2028 — Enterprise Licensing & API Marketplace</strong><br>
+            DorcasAi as a licensed intelligence layer for other products.
+        </div>
+    </div>
+</section>
+
+<section class="section section-narrow" id="investors">
+    <h2>Investor Snapshot</h2>
+    <p>This is a forward‑looking, illustrative model for how DorcasAi could compound value as products reach market.</p>
+
+    <div class="metrics">
+        <div class="metric">
+            <span class="metric-label">Flagship Products</span>
+            <span class="metric-value">3</span>
+            <span class="metric-note">UnBabble AI, MirrorZip, Caregiver Companion</span>
+        </div>
+        <div class="metric">
+            <span class="metric-label">Target Gross Margin</span>
+            <span class="metric-value">75–80%</span>
+            <span class="metric-note">High‑margin SaaS + licensing</span>
+        </div>
+        <div class="metric">
+            <span class="metric-label">Primary Markets</span>
+            <span class="metric-value">3</span>
+            <span class="metric-note">Communication, infra‑memory, caregiving</span>
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <th>Stage</th>
+            <th>Capital In</th>
+            <th>Illustrative Valuation</th>
+            <th>Key Value Drivers</th>
+        </tr>
+        <tr>
+            <td>Pre‑Seed</td>
+            <td>$150K</td>
+            <td>$1.2M</td>
+            <td>Brand, core architecture, early prototypes.</td>
+        </tr>
+        <tr>
+            <td>Seed</td>
+            <td>$750K</td>
+            <td>$7.8M</td>
+            <td>UnBabble AI + MirrorZip MVP, first pilots.</td>
+        </tr>
+        <tr>
+            <td>Series A</td>
+            <td>$3.5M</td>
+            <td>$26M</td>
+            <td>UnBabble AI enterprise onboarding, caregiver deployments.</td>
+        </tr>
+        <tr>
+            <td>Series B</td>
+            <td>$12M</td>
+            <td>$95M</td>
+            <td>National caregiver rollout, UnBabble AI licensing at scale.</td>
+        </tr>
+        <tr>
+            <td>Series C</td>
+            <td>$40M</td>
+            <td>$280M+</td>
+            <td>Global awareness engine + DorcasAi as infrastructure.</td>
+        </tr>
+    </table>
+
+    <div class="cta" style="margin-top:28px;">
+        <a href="#" class="cta-primary">Download Investor One‑Pager</a>
+        <a href="#contact" class="cta-secondary">Request Intro Call</a>
+    </div>
+</section>
+
+<section class="section section-narrow" id="contact">
+    <h2>Contact</h2>
+    <p>Interested in partnering, piloting, or investing in DorcasAi Technology? Reach out to discuss aligned experiments and capital.</p>
+    <p>Email: <a href="mailto:founder@dorcasai.tech">founder@dorcasai.tech</a></p>
+</section>
+
+<footer>
+    © 2026 DorcasAi Technology — All Rights Reserved
+</footer>
+
+</body>
+</html>
+<a href="unbabble.html">UnBabble AI</a>
